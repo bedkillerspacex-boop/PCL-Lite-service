@@ -5,13 +5,13 @@
     {
       "id": "2026-11-02-mask-user-folder",
       "title": "新功能：用户文件夹名打码",
-      "detail": "1.7.0-early-2 起，界面和启动日志里 C:\\Users\\ 后面的用户名会统一显示成 *****，默认开着 —— 截图发出去不会再带出自己的 Windows 用户名。\n\n如果它影响了你的使用（比如想看真实路径排查问题，或者觉得哪里打过头了），到「设置 → 个性化 → 基础」取消勾选「界面上的用户文件夹名打码」即可，立刻生效，不用重启。\n\n崩溃报告不受这个开关影响，始终打码。",
+      "detail": "1.7.0-early-2 起，界面和启动日志里 C:\\Users\\ 后面的用户名会统一显示成 *****，默认开着 —— 截图发出去不会再带出自己的 Windows 用户名（early-3 补上了实例列表和 Java 列表里漏掉的两处路径）。\n\n如果它影响了你的使用（比如想看真实路径排查问题，或者觉得哪里打过头了），到「设置 → 个性化 → 基础」取消勾选「界面上的用户文件夹名打码」即可，立刻生效，不用重启。\n\n崩溃报告不受这个开关影响，始终打码。",
       "date": "2026-11-02",
       "important": false,
       "btn1": {
         "text": "查看更新说明",
         "command": "OpenUrl",
-        "command_paramter": "https://github.com/askbbtsk/pcl-lite/releases/tag/v1.7.0-early-2"
+        "command_paramter": "https://github.com/askbbtsk/pcl-lite/releases/tag/v1.7.0-early-3"
       }
     },
     {
