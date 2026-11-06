@@ -2,13 +2,8 @@
   "schema": 2,
   "sources": [
     {
-      "repo": "askbbtsk/pcl-lite",
+      "repo": "bedkillerspacex-boop/Pcl-Light",
       "tier": "official"
-    },
-    {
-      "repo": "ciallobska/static-archive-6d1a",
-      "tier": "mirror",
-      "weight": 90
     }
   ]
 }
