@@ -1,0 +1,17 @@
+{
+  "_readme": "PCL Lite 启动器公告。",
+  "content": [
+    {
+      "id": "2026-11-06-lite-source",
+      "title": "欢迎使用 PCL Lite",
+      "detail": "PCL Lite 更新源保持为 PCL Lite 发布仓库。\n\n如需反馈问题或查看更新，请访问 PCL Lite GitHub 仓库。",
+      "date": "2026-11-06",
+      "important": false,
+      "btn1": {
+        "text": "打开 GitHub",
+        "command": "OpenUrl",
+        "command_paramter": "https://github.com/askbbtsk/pcl-lite"
+      }
+    }
+  ]
+}
