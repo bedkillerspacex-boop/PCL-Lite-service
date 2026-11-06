@@ -1,17 +1,16 @@
 {
   "_readme": "启动器公告。改这个文件就等于发一条公告，不需要发版；客户端每次启动会拉一次。",
-  "_字段说明": "content 是公告数组，每条包含：id（必填，唯一；内容改了要换新 id，否则已经看过的人不会再看到）、title（弹窗标题）、detail（正文，支持换行）、date（日期，只用于显示）、important（true 时，设置里选「仅重要」的用户也会收到；用于「某版本有严重问题别升」这类消息）、btn1 / btn2（可选按钮，形如 {text: 按钮文字, command: 事件名, command_paramter: 参数}，command 为 null 时点按钮只关闭弹窗）。没有 id 的条目会被客户端忽略。文件不存在或写坏时，客户端当作没有公告，不影响启动。",
   "content": [
     {
-      "id": "2026-11-01-welcome",
-      "title": "欢迎使用 PCL Lite",
-      "detail": "感谢你选择 PCL Lite。\n\n这是从 PCL CE 分出来的个人维护版本，主要按自己的使用习惯在改，更新节奏跟着我自己的需要走。\n\n当前在快照通道，更新比较勤。想稳一点可以在「设置 → 启动器 → 更新」里切到稳定版。\n\n遇到问题或者想提建议，欢迎到 GitHub 仓库开 issue。",
-      "date": "2026-11-01",
+      "id": "2026-11-06-light-source",
+      "title": "欢迎使用 PCL Light",
+      "detail": "PCL Light 更新源已切换到 PCL Light 发布仓库。\n\n如需反馈问题或查看更新，请访问 GitHub 仓库。",
+      "date": "2026-11-06",
       "important": false,
       "btn1": {
         "text": "打开 GitHub",
         "command": "OpenUrl",
-        "command_paramter": "https://github.com/askbbtsk/pcl-lite"
+        "command_paramter": "https://github.com/bedkillerspacex-boop/Pcl-Light"
       }
     }
   ]
