@@ -6,6 +6,7 @@ PCL Lite 的**更新锚点**。这个仓库里只有两份清单，没有代码�
 | --- | --- | --- |
 | `update.json` | 1.5.x 及更早 | 单指针，一行「去问哪个仓库」。**永远不能删** |
 | `updatev2.json` | 1.6.0 及以后 | 多源清单，一次列多个仓库、每个带权重 |
+| `plugins/index.json` | 支持插件市场的 PCL Lite | 插件市场索引；插件包从各自 GitHub Release 下载 |
 
 新客户端先读 `updatev2.json`，读不到（404 / 写坏 / 超时）就静默退回 `update.json`。
 所以**两份都要在**：老客户端只认前者，新客户端优先后者。
@@ -90,3 +91,9 @@ PCL Lite 的**更新锚点**。这个仓库里只有两份清单，没有代码�
 也是为什么 1.6.0 起要多源清单——单指针再怎么稳，也只有一个仓库在扛。
 
 客户端侧的说明见主仓库的 `docs/UPDATE.md`。
+
+## 插件市场
+
+`plugins/index.json` 是插件市场的静态索引。发布插件时，将 `.pclplugin` 包附加到公开的 GitHub Release，
+然后按 [`plugins/README.md`](plugins/README.md) 中的格式提交索引项。客户端会校验 HTTPS、Release 资产地址、
+市场索引中的 SHA-256 和 Release 资产摘要；包本身仍需通过插件签名校验。
