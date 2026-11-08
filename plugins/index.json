@@ -4,12 +4,12 @@
     {
       "id": "pcl.market-test",
       "name": "PCL Lite Marketplace Test Plugin",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "PCL Lite Test Team",
-      "description": "A small signed test plugin demonstrating a plugin page, success notifications, and private plugin storage.",
-      "packageUrl": "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin/releases/download/v1.0.0/pcl-lite-market-test.pclplugin",
+      "description": "Signed API smoke-test plugin covering PCL Lite host APIs, storage, UI, events, networking, downloads, services, and Minecraft queries.",
+      "packageUrl": "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin/releases/download/v1.1.0/pcl-lite-market-test.pclplugin",
       "website": "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin",
-      "sha256": "17144f913c5c95897e55b51be4cb398366eeebfc943a20ec5d5e6a1b2444325a"
+      "sha256": "a66b33ab5ff291c9496b7cea4a203e8cc75fcaed8fe747ebe8c0710061b05885"
     }
   ]
 }
