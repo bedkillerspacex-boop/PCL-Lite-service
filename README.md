@@ -1,15 +1,15 @@
 # PCL-Lite-service
 
-PCL Lite 的**更新锚点**。这个仓库里只有两份清单，没有代码、没有 Release。
+PCL Lite 的**更新锚点**，提供 v2 更新清单、公告及插件市场索引，没有启动器 Release。
 
 | 文件 | 谁在读 | 作用 |
 | --- | --- | --- |
-| `update.json` | 1.5.x 及更早 | 单指针，一行「去问哪个仓库」。**永远不能删** |
 | `updatev2.json` | 1.6.0 及以后 | 多源清单，一次列多个仓库、每个带权重 |
 | `plugins/index.json` | 支持插件市场的 PCL Lite | 插件市场索引；插件包从各自 GitHub Release 下载 |
 
-新客户端先读 `updatev2.json`，读不到（404 / 写坏 / 超时）就静默退回 `update.json`。
-所以**两份都要在**：老客户端只认前者，新客户端优先后者。
+从 1.7.5-pre-4 起，启动器只读取 `updatev2.json`，失败不再回退服务仓库的 v1。
+本仓库已删除 `update.json`，停止为只支持 v1 的旧客户端提供更新指针。
+发布/镜像仓库根目录用于身份校验的 `update.json` 属于另一用途，仍然保留。
 
 ## 它解决什么问题
 
@@ -21,23 +21,10 @@ PCL Lite 的**更新锚点**。这个仓库里只有两份清单，没有代码�
 
 ```
 客户端（写死，永不改变）
-    └──> 本仓库的 update.json / updatev2.json   ← 唯一锚点
+    └──> 本仓库的 updatev2.json   ← 唯一更新清单
              └──> 当前发布仓库/releases/latest   ← 随时可以改
                       └──> Release 自己提供版本号、资产、直链、SHA-256
 ```
-
-## `update.json`
-
-```json
-{
-  "update": "askbbtsk/pcl-lite/releases/latest"
-}
-```
-
-`owner/repo` 之后的部分（`releases/latest`）只是给人看的，
-程序取哪一版由那个仓库 Release 的 `prerelease` 标记决定。
-
-**发新版不需要动这个文件。** 只有「发布仓库搬家」时才改那一行。
 
 ## `updatev2.json`
 
