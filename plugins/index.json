@@ -1,15 +1,25 @@
 {
-  "schemaVersion": 1,
-  "plugins": [
-    {
-      "id": "pcl.market-test",
-      "name": "PCL Lite Marketplace Test Plugin",
-      "version": "1.1.1",
-      "author": "PCL Lite Test Team",
-      "description": "Signed API smoke-test plugin with case-insensitive HTTP header checks and actionable network failure diagnostics.",
-      "packageUrl": "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin/releases/download/v1.1.1/pcl-lite-market-test-v1.1.1.pclplugin",
-      "website": "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin",
-      "sha256": "7a874a08154baf062b843948017a42652f2949d393d4833e342437b10c9b3ffc"
-    }
-  ]
+    "schemaVersion":  1,
+    "plugins":  [
+                    {
+                        "id":  "pcl.market-test",
+                        "name":  "PCL Lite Marketplace Test Plugin",
+                        "version":  "1.1.1",
+                        "author":  "PCL Lite Test Team",
+                        "description":  "Signed API smoke-test plugin with case-insensitive HTTP header checks and actionable network failure diagnostics.",
+                        "packageUrl":  "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin/releases/download/v1.1.1/pcl-lite-market-test-v1.1.1.pclplugin",
+                        "website":  "https://github.com/bedkillerspacex-boop/PCL-Lite-Market-Test-Plugin",
+                        "sha256":  "7a874a08154baf062b843948017a42652f2949d393d4833e342437b10c9b3ffc"
+                    },
+                    {
+                        "id":  "imcproxy.control",
+                        "name":  "IMCProxy",
+                        "version":  "1.0.0",
+                        "author":  "IMCProxy",
+                        "description":  "Download, run and configure IMCProxy-Free from PCL Lite. The proxy runs hidden and is controlled through its HTTP API.",
+                        "packageUrl":  "https://github.com/hert1145/imcp-pcl-plugin/releases/download/v1.0.0/imcproxy.control-v1.0.0.pclplugin",
+                        "website":  "https://github.com/hert1145/imcp-pcl-plugin",
+                        "sha256":  "a707a8650b99469ada7c1ff7bbb44a6d16c71437a6404ade5235a9cba1a06d79"
+                    }
+                ]
 }
