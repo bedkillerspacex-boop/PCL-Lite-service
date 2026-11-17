@@ -19,7 +19,7 @@
       "description": "在启动器内下载、启动并配置 IMCProxy-NextGen-Free 本地代理。",
       "packageUrl": "https://github.com/hert1145/imcp-pcl-plugin/releases/download/v2.0.1/imcproxy.control-v2.0.1.pclplugin",
       "website": "https://github.com/hert1145/imcp-pcl-plugin",
-      "sha256": "27fc9a1c3b9474d8d8ed730e98ff3380a41837fe16c4f9cc5c069979dd1ee0da"
+      "sha256": "db5d28a792d445b33d45a0c2e5be84da02ba4d110ec3896e1cdd0ed21ab005fd"
     }
   ]
 }
