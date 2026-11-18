@@ -14,12 +14,12 @@
     {
       "id": "imcproxy.control",
       "name": "IMCProxy",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "author": "IMCProxy",
       "description": "在启动器内下载、启动并配置 IMCProxy-NextGen-Free 本地代理。",
-      "packageUrl": "https://github.com/hert1145/imcp-pcl-plugin/releases/download/v2.0.1/imcproxy.control-v2.0.1.pclplugin",
+      "packageUrl": "https://github.com/hert1145/imcp-pcl-plugin/releases/download/v2.0.2/imcproxy.control-v2.0.2.pclplugin",
       "website": "https://github.com/hert1145/imcp-pcl-plugin",
-      "sha256": "d53a2d8e65c09e3c88e34171b23ba24b90d9c4acbe1f63e140ffc892fb0ab4bb"
+      "sha256": "6b2985882b28c7fd00bf5df62536409aedeb565a3d553516e250c5b4b1a8084b"
     }
   ]
 }
